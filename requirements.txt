@@ -1,5 +1,9 @@
-fastapi
-uvicorn
-pillow
-opencv-python-headless
-fer
+fastapi==0.115.0
+uvicorn==0.30.6
+pillow==10.4.0
+opencv-python-headless==4.10.0.84
+fer==22.5.1
+moviepy==1.0.3
+tensorflow==2.16.1
+mtcnn==0.1.1
+python-multipart==0.0.12
