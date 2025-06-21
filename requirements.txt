@@ -1,6 +1,8 @@
 fastapi
 uvicorn
-pillow
-opencv-python-headless
-fer
-tensorflow==2.12.0
+Pillow
+face_recognition
+torch
+transformers
+opencv-python
+numpy

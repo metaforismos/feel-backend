@@ -1,16 +1,12 @@
-# Feel – Emotion Recognition Backend (FER Version)
+# Feelgram Backend
 
-This backend service receives one or more image files and returns the dominant emotion detected using the open-source `fer` library.
+A multi-model image analysis service for detecting emotion, scenes, and extracting insights from user photos.
 
-## Features
-
-- Upload multiple images
-- Detects primary emotion per photo
-- Returns label and confidence score
-- Built with FastAPI
-
-## Run Locally
+## Setup
 
 ```bash
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 uvicorn app:app --reload
+```
