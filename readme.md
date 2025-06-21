@@ -1,6 +1,6 @@
-# Feel – Emotion Recognition Backend
+# Feel – Emotion Recognition Backend (FER Version)
 
-This backend service receives one or more image files and returns the dominant emotion detected in each image using a pre-trained model (`nateraw/ferplus` from Hugging Face).
+This backend service receives one or more image files and returns the dominant emotion detected using the open-source `fer` library.
 
 ## Features
 

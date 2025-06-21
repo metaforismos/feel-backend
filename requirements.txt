@@ -1,5 +1,5 @@
 fastapi
 uvicorn
 pillow
-torch
-transformers
+opencv-python-headless
+fer
